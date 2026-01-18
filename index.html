@@ -1,276 +1,135 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FindmyTool</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
 
-  <body class="bg-white text-gray-800">
-    <!-- ================= NAVBAR ================= -->
-    <header class="border-b">
-      <div
-        class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between"
-      >
-        <div class="flex items-center space-x-2 ml-2">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-book-open h-6 w-6 text-primary"
-            aria-hidden="true"
-          >
-            <path d="M12 7v14"></path>
-            <path
-              d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"
-            ></path>
-          </svg>
-          <h1 class="text-xl font-bold font-serif">FindmyTool</h1>
-        </div>
-        <!-- Desktop Menu -->
-        <nav class="hidden md:flex gap-6 text-sm">
-          <a href="/" class="font-bold hover:text-green-700">Home</a>
-          <a href="/tutorials" class="font-bold hover:text-green-700"
-            >Tutorials</a
-          >
-          <a href="/blogs" class="font-bold hover:text-green-700">Blogs</a>
-        </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Next.js Blog</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
 
-        <!-- Mobile Menu Button -->
-        <button id="menuBtn" class="md:hidden text-2xl">☰</button>
-      </div>
+<body class="bg-black text-white">
 
-      <!-- Mobile Menu -->
-      <div id="mobileMenu" class="hidden md:hidden border-t">
-        <nav class="flex flex-col px-4 py-4 gap-3 text-sm">
-          <a href="#" class="font-bold hover:text-green-700">Home</a>
-          <a href="/tutorials" class="font-bold hover:text-green-700"
-            >Tutorials</a
-          >
-          <a href="/blogs" class="font-bold hover:text-green-700">Blogs</a>
+  <!-- Navbar -->
+  <header class="border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-6">
+        <span class="text-xl font-bold">▲ findmytool</span>
+        <nav class="hidden md:flex gap-6 text-sm text-gray-400">
+          <a href="#" class="hover:text-white">Showcase</a>
+          <a href="#" class="hover:text-white">Docs</a>
+          <a href="#" class="text-white">Blog</a>
+          <a href="#" class="hover:text-white">Templates</a>
+          <a href="#" class="hover:text-white">Enterprise</a>
         </nav>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- ================= HERO ================= -->
-    <section class="text-center py-14 md:py-20 px-4">
-      <h1 class="text-3xl md:text-5xl font-bold leading-tight">
-        Discover Knowledge Through
-        <span class="text-green-700 block md:inline">Reading</span>
-      </h1>
+  <!-- Page Container -->
+  <main class="max-w-7xl mx-auto px-6 py-14">
 
-      <p class="max-w-2xl mx-auto mt-5 text-sm md:text-base text-gray-600">
-        Explore our curated collection of tutorials and blogs designed to
-        enhance your learning journey.
-      </p>
+    <!-- Page Title -->
+    <h1 class="text-3xl md:text-4xl font-semibold mb-12">
+      The latest Next.js news
+    </h1>
 
-      <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4">
-        <button class="bg-green-700 text-white px-6 py-3 rounded-md">
-          Browse Tutorials
-        </button>
-        <button class="border px-6 py-3 rounded-md">Read Latest Blogs</button>
+    <!-- Blog Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Card -->
+      <div class="rounded-xl border border-gray-800 bg-gradient-to-b from-neutral-900 to-black p-6 flex flex-col">
+        <p class="text-sm text-gray-400 mb-2">December 18th, 2025</p>
+        <h2 class="text-xl font-semibold mb-4">Next.js 16.1</h2>
+        <ul class="text-sm text-gray-300 space-y-2 mb-6">
+          <li>• Turbopack File System Caching for <span class="text-blue-400">next dev</span></li>
+          <li>• Next.js Bundle Analyzer (experimental)</li>
+          <li>• Easier Debugging with <span class="text-blue-400">next dev --inspect</span></li>
+        </ul>
+        <div class="mt-auto">
+          <button onclick="window.location.href='blogs/blog.html'"
+            class="w-full rounded-lg bg-neutral-800 py-2 text-sm hover:bg-neutral-700 transition">
+            Read More
+          </button>
+        </div>
       </div>
-    </section>
 
-    <!-- ================= FEATURED ================= -->
-    <section class="bg-green-50 py-16 px-4">
-      <div class="max-w-7xl mx-auto">
-        <h2 class="text-2xl font-semibold text-center">Featured Content</h2>
-        <p class="text-center text-gray-600 mt-2">
-          Hand-picked articles and tutorials for you
+      <!-- Card -->
+      <div class="rounded-xl border border-gray-800 bg-gradient-to-b from-neutral-900 to-black p-6 flex flex-col">
+        <p class="text-sm text-gray-400 mb-2">December 11th, 2025</p>
+        <h2 class="text-xl font-semibold mb-4">
+          Next.js Security Update: December 11, 2025
+        </h2>
+        <p class="text-sm text-gray-300 mb-6">
+          Two additional vulnerabilities have been identified in React Server Components:
+          a high-severity DoS and a medium-severity source code exposure.
         </p>
-
-        <div class="grid gap-8 mt-10 sm:grid-cols-2 lg:grid-cols-3">
-          <!-- Card -->
-          <div class="bg-white rounded-xl shadow p-4">
-            <span
-              class="inline-block mt-4 text-xs bg-yellow-200 text-yellow-800 px-2 py-1 rounded"
-            >
-              Tutorial
-            </span>
-            <h3 class="font-semibold mt-3">
-              Modern Web Development with React
-            </h3>
-            <p class="text-sm text-gray-600 mt-2">
-              Learn the fundamentals of React with practical examples.
-            </p>
-            <p class="text-xs text-gray-500 mt-4">👤 Sarah Johnson</p>
-          </div>
-
-          <div class="bg-white rounded-xl shadow p-4">
-            <span
-              class="inline-block mt-4 text-xs bg-green-200 text-green-800 px-2 py-1 rounded"
-            >
-              Blog
-            </span>
-            <h3 class="font-semibold mt-3">The Art of Design Thinking</h3>
-            <p class="text-sm text-gray-600 mt-2">
-              Explore how design thinking transforms problem-solving.
-            </p>
-            <p class="text-xs text-gray-500 mt-4">👤 Michael Chen</p>
-          </div>
-
-          <div class="bg-white rounded-xl shadow p-4">
-            <span
-              class="inline-block mt-4 text-xs bg-yellow-200 text-yellow-800 px-2 py-1 rounded"
-            >
-              Tutorial
-            </span>
-            <h3 class="font-semibold mt-3">Data Science with Python</h3>
-            <p class="text-sm text-gray-600 mt-2">
-              A comprehensive guide to getting started with data analysis.
-            </p>
-            <p class="text-xs text-gray-500 mt-4">👤 Alex Rivera</p>
-          </div>
+        <div class="mt-auto">
+          <button onclick="window.location.href='blogs/blog.html'"
+            class="w-full rounded-lg bg-neutral-800 py-2 text-sm hover:bg-neutral-700 transition">
+            Read More
+          </button>
         </div>
       </div>
-    </section>
 
-    <!-- ================= CATEGORIES ================= -->
-    <section class="py-16 px-4">
-      <div class="max-w-7xl mx-auto">
-        <h2 class="text-2xl font-semibold text-center">Browse by Category</h2>
-        <p class="text-center text-gray-600 mt-2">
-          Find content that matches your interests
+      <!-- Card -->
+      <div class="rounded-xl border border-gray-800 bg-gradient-to-b from-neutral-900 to-black p-6 flex flex-col">
+        <p class="text-sm text-gray-400 mb-2">December 3rd, 2025</p>
+        <h2 class="text-xl font-semibold mb-4">
+          Security Advisory: CVE-2025-66478
+        </h2>
+        <p class="text-sm text-gray-300 mb-6">
+          A critical vulnerability (CVSS 10.0) has been identified that allows remote code execution.
+          All users should upgrade immediately.
         </p>
-
-        <div class="grid gap-6 mt-10 sm:grid-cols-2 lg:grid-cols-4">
-          <a
-            href="/tutorials"
-            class="border rounded-xl p-6 text-center hover:shadow"
-          >
-            <div class="flex justify-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-wrench-icon lucide-wrench"
-              >
-                <path
-                  d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"
-                />
-              </svg>
-            </div>
-            <h3 class="font-semibold mt-3">Tutorials</h3>
-            <p class="text-sm text-gray-500">24 articles</p>
-          </a>
-
-          <a
-            href="/blogs"
-            class="border rounded-xl p-6 text-center hover:shadow"
-          >
-            <div class="flex justify-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-book-open h-6 w-6"
-                aria-hidden="true"
-              >
-                <path d="M12 7v14"></path>
-                <path
-                  d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"
-                ></path>
-              </svg>
-            </div>
-            <h3 class="font-semibold mt-3">Blogs</h3>
-            <p class="text-sm text-gray-500">18 articles</p>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ================= FOOTER ================= -->
-    <footer class="border-t py-10 px-4 text-sm">
-      <div class="max-w-7xl mx-auto grid gap-8 md:grid-cols-4">
-        <div>
-          <div class="flex items-center space-x-2 mb-4">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-book-open h-5 w-5 text-primary"
-              aria-hidden="true"
-            >
-              <path d="M12 7v14"></path>
-              <path
-                d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"
-              ></path>
-            </svg>
-            <span class="font-bold font-serif">FindmyTool</span>
-          </div>
-          <p class="text-gray-600">
-            Your destination for quality tutorials and blogs.
-          </p>
-        </div>
-
-        <div>
-          <h4 class="font-semibold mb-2">Content</h4>
-          <ul class="space-y-1 text-gray-600">
-            <li><a href="/tutorials">Tutorials</a></li>
-            <li><a href="/blogs">Blogs</a></li>
-            <li>Categories</li>
-            <li>Authors</li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 class="font-semibold mb-2">Company</h4>
-          <ul class="space-y-1 text-gray-600">
-            <li>Privacy</li>
-            <li>Terms</li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 class="font-semibold mb-2">Connect</h4>
-          <ul class="space-y-1 text-gray-600">
-            <li>Twitter</li>
-            <li>LinkedIn</li>
-            <li>GitHub</li>
-            <li>RSS</li>
-          </ul>
+        <div class="mt-auto">
+          <button onclick="window.location.href='blogs/blog.html'"
+            class="w-full rounded-lg bg-neutral-800 py-2 text-sm hover:bg-neutral-700 transition">
+            Read More
+          </button>
         </div>
       </div>
 
-      <p class="text-center text-gray-500 mt-10">
-        © 2024 FindmyTool. All rights reserved.
-      </p>
-    </footer>
+      <!-- Card -->
+      <div class="rounded-xl border border-gray-800 bg-gradient-to-b from-neutral-900 to-black p-6 flex flex-col">
+        <p class="text-sm text-gray-400 mb-2">October 21st, 2025</p>
+        <h2 class="text-xl font-semibold mb-4">Next.js 16</h2>
+        <div class="mt-auto">
+          <button onclick="window.location.href='blogs/blog.html'"
+            class="w-full rounded-lg bg-neutral-800 py-2 text-sm hover:bg-neutral-700 transition">
+            Read More
+          </button>
+        </div>
+      </div>
 
-    <!-- ================= MOBILE MENU SCRIPT ================= -->
-    <script>
-      const btn = document.getElementById("menuBtn");
-      const menu = document.getElementById("mobileMenu");
+      <!-- Card -->
+      <div class="rounded-xl border border-gray-800 bg-gradient-to-b from-neutral-900 to-black p-6 flex flex-col">
+        <p class="text-sm text-gray-400 mb-2">October 9th, 2025</p>
+        <h2 class="text-xl font-semibold mb-4">Next.js 16 (beta)</h2>
+        <div class="mt-auto">
+          <button onclick="window.location.href='blogs/blog.html'"
+            class="w-full rounded-lg bg-neutral-800 py-2 text-sm hover:bg-neutral-700 transition">
+            Read More
+          </button>
+        </div>
+      </div>
 
-      btn.addEventListener("click", () => {
-        menu.classList.toggle("hidden");
-      });
-    </script>
-  </body>
+      <!-- Card -->
+      <div class="rounded-xl border border-gray-800 bg-gradient-to-b from-neutral-900 to-black p-6 flex flex-col">
+        <p class="text-sm text-gray-400 mb-2">August 18th, 2025</p>
+        <h2 class="text-xl font-semibold mb-4">Next.js 15.5</h2>
+        <div class="mt-auto">
+          <button onclick="window.location.href='blogs/blog.html'"
+            class="w-full rounded-lg bg-neutral-800 py-2 text-sm hover:bg-neutral-700 transition">
+            Read More
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+</body>
+
 </html>
