@@ -1,162 +1,70 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog List</title>
-    <style>
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 0;
-        background: #f5f7fb;
-        color: #333;
-      }
 
-      header {
-        background: #111827;
-        color: #fff;
-        padding: 1.5rem 2rem;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blogs</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
 
-      header h1 {
-        margin: 0;
-        font-size: 1.8rem;
-      }
-
-      .blog-count {
-        background: #2563eb;
-        color: #fff;
-        padding: 0.35rem 0.75rem;
-        border-radius: 999px;
-        font-size: 0.85rem;
-        font-weight: 600;
-        white-space: nowrap;
-      }
-
-      .container {
-        width: 100%;
-        max-width: none;
-        margin: 0;
-        padding: 2rem;
-      }
-
-      .blog-list {
-        display: flex;
-        flex-direction: column;
-        gap: 1.25rem;
-      }
-
-      .blog-card {
-        background: #fff;
-        border-radius: 10px;
-        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
-        padding: 1.5rem 1.75rem;
-        transition:
-          box-shadow 0.2s ease,
-          transform 0.2s ease;
-      }
-
-      .blog-card:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
-      }
-
-      .blog-content h2 {
-        font-size: 1.25rem;
-        margin: 0 0 0.4rem;
-        line-height: 1.4;
-      }
-
-      .blog-meta {
-        font-size: 0.85rem;
-        color: #6b7280;
-        margin-bottom: 0.75rem;
-      }
-
-      .blog-excerpt {
-        font-size: 1rem;
-        line-height: 1.6;
-        margin-bottom: 1rem;
-        color: #4b5563;
-      }
-
-      .read-more {
-        text-decoration: none;
-        font-size: 0.95rem;
-        font-weight: 600;
-        color: #2563eb;
-      }
-
-      .read-more:hover {
-        text-decoration: underline;
-      }
-
-      footer {
-        text-align: center;
-        padding: 2rem 1rem;
-        font-size: 0.85rem;
-        color: #6b7280;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <div
-        style="
+<body>
+  <header>
+    <div style="
           display: flex;
           align-items: center;
           justify-content: space-between;
           gap: 1rem;
-        "
-      >
-        <h1>Blogs</h1>
-        <span class="blog-count">Total Blogs: 3</span>
-      </div>
-    </header>
+        ">
+      <h1>Blogs</h1>
+      <span class="blog-count">Total Blogs: 3</span>
+    </div>
+  </header>
 
-    <main class="container">
-      <section class="blog-list">
-        <!-- Blog Item -->
-        <article class="blog-card">
-          <div class="blog-content">
-            <h2>Building Scalable Web Applications</h2>
-            <div class="blog-meta">Jan 12, 2026 · Development</div>
-            <p class="blog-excerpt">
-              Learn the key principles behind building scalable and maintainable
-              web applications using modern frameworks.
-            </p>
-            <a href="#" class="read-more">Read more →</a>
-          </div>
-        </article>
+  <main class="container">
+    <section class="blog-list">
+      <!-- Blog Item -->
+      <article class="blog-card">
+        <div class="blog-content">
+          <h2>Building Scalable Web Applications</h2>
+          <div class="blog-meta">Jan 12, 2026 · Development</div>
+          <p class="blog-excerpt">
+            Learn the key principles behind building scalable and maintainable
+            web applications using modern frameworks.
+          </p>
+          <a href="#" class="read-more">Read more →</a>
+        </div>
+      </article>
 
-        <!-- Blog Item -->
-        <article class="blog-card">
-          <div class="blog-content">
-            <h2>Building Scalable Web Applications</h2>
-            <div class="blog-meta">Jan 12, 2026 · Development</div>
-            <p class="blog-excerpt">
-              Learn the key principles behind building scalable and maintainable
-              web applications using modern frameworks.
-            </p>
-            <a href="#" class="read-more">Read more →</a>
-          </div>
-        </article>
+      <!-- Blog Item -->
+      <article class="blog-card">
+        <div class="blog-content">
+          <h2>Building Scalable Web Applications</h2>
+          <div class="blog-meta">Jan 12, 2026 · Development</div>
+          <p class="blog-excerpt">
+            Learn the key principles behind building scalable and maintainable
+            web applications using modern frameworks.
+          </p>
+          <a href="#" class="read-more">Read more →</a>
+        </div>
+      </article>
 
-        <!-- Blog Item -->
-        <article class="blog-card">
-          <div class="blog-content">
-            <h2>Building Scalable Web Applications</h2>
-            <div class="blog-meta">Jan 12, 2026 · Development</div>
-            <p class="blog-excerpt">
-              Learn the key principles behind building scalable and maintainable
-              web applications using modern frameworks.
-            </p>
-            <a href="#" class="read-more">Read more →</a>
-          </div>
-        </article>
-      </section>
-    </main>
+      <!-- Blog Item -->
+      <article class="blog-card">
+        <div class="blog-content">
+          <h2>Building Scalable Web Applications</h2>
+          <div class="blog-meta">Jan 12, 2026 · Development</div>
+          <p class="blog-excerpt">
+            Learn the key principles behind building scalable and maintainable
+            web applications using modern frameworks.
+          </p>
+          <a href="#" class="read-more">Read more →</a>
+        </div>
+      </article>
+    </section>
+  </main>
 
-    <footer>© 2026 Your Company. All rights reserved.</footer>
-  </body>
+  <footer>© 2026 Your Company. All rights reserved.</footer>
+</body>
+
 </html>
