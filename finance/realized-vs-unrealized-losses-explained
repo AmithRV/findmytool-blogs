@@ -1,1 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- google tag (gtag.js) -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=g-0l4rxg3vyz"></script>
+    <script>
+        window.datalayer = window.datalayer || [];
+        function gtag(){datalayer.push(arguments);}
+        gtag('js', new date());
 
+        gtag('config', 'g-0l4rxg3vyz');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>realized vs unrealized losses explained</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="../favicon.ico">
+    <meta name="description" content="learn the simple difference between realized and unrealized losses in the stock market, with easy examples to help you invest calmly and make better decisions.">
+    <link rel="canonical" href="https://findmytool.net/finance/when-stock-prices-drop-where-is-the-money">
+</head>
+
+<body class="bg-black text-white">
+    <!-- navbar -->
+    <header class="border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-6">
+                <a href="/" class="text-white text-xl font-bold capitalize">▲ findmytool</a>
+                <nav class="hidden md:flex gap-6 text-sm text-gray-400">
+                    <a href="/finance" class="text-white">finance</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <article class="max-w-5xl mx-auto px-4 py-10">
+        <!-- back link -->
+        <a href="/" class="inline-flex items-center text-sm text-gray-400 hover:text-white mb-10">
+            ← back to home
+        </a>
+
+        <!-- date -->
+        <p class="text-sm text-gray-400 mb-6">thursday, 22 january 2026</p>
+
+        <!-- title -->
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-10">
+            realized vs unrealized losses explained
+        </h1>
+
+        <!-- author section -->
+        <div class="flex items-center gap-8 mb-10">
+            <!-- author 1 -->
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-gray-700">
+                    <img src="../public/user.jpeg" alt="amith" loading="lazy" width="40" height="40" class="rounded-full">
+                </div>
+                <div>
+                    <p class="text-sm font-medium">amith</p>
+                    <p class="text-xs text-gray-400">@amith</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- divider -->
+        <div class="border-t border-gray-800 "></div>
+
+        <div class="shadow-lg rounded-2xl p-8 pb-0 ">
+            
+            <p class="mb-6">
+                in the stock market, losses come in two forms: <span class="font-semibold">"realized"</span> and
+                <span class="font-semibold">"unrealized"</span>. understanding the difference helps investors stay calm
+                and make better decisions.
+            </p>
+        
+            <p class="mb-4">
+                an <span class="font-semibold">unrealized loss</span> happens when the price of a stock you own goes down,
+                but you haven’t sold it yet. for example, you buy a share for ₹1,000 and its current price drops to ₹800.
+                you are showing a loss of ₹200, but only on paper. you still own the share, and the price can go up again.
+                nothing is final at this stage.
+            </p>
+        
+            <p class="mb-4">
+                a <span class="font-semibold">realized loss</span> occurs when you actually sell that share at a lower price.
+                if you sell it at ₹800, the ₹200 loss becomes real. the moment you sell, the loss is locked in and cannot be
+                reversed.
+            </p>
+        
+            <div class="bg-gray-900 rounded-xl p-4 my-6">
+                <p class="font-medium mb-2">in simple terms:</p>
+                <ul class="text-white list-disc list-inside text-gray-700 space-y-1">
+                    <li><strong>unrealized loss</strong> = “i’m down, but i’m still holding.”</li>
+                    <li><strong>realized loss</strong> = “i sold, and the loss is final.”</li>
+                </ul>
+            </div>
+        
+            <p>
+                this difference is important because markets move up and down all the time. many great investors experience
+                unrealized losses during temporary drops, but they don’t panic. they wait for the business to recover.
+                losses only become permanent when you exit.
+            </p>
+        
+            <p class="mt-4">
+                knowing this helps you separate short-term price noise from long-term reality—and keeps emotions from driving
+                your investment decisions.
+            </p>
+        </div>
+    </article>
+
+    <!-- footer -->
+    <footer class="border-t border-gray-800 mt-0">
+        <div class="max-w-6xl mx-auto px-6 py-14">
+            <h3 class="text-2xl font-semibold text-white mb-8">
+                related stock market topics
+            </h3>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- card 1 -->
+                <a href="/finance/when-stock-prices-drop-where-does-the-money-go" class="group border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition">
+                    <h4 class="text-white font-semibold mb-2 group-hover:text-blue-400">
+                        where does money go when stocks fall?
+                    </h4>
+                    <p class="text-sm text-gray-400 leading-relaxed">
+                        understand whether money is actually lost in the stock market and
+                        how price drops affect investors.
+                    </p>
+                </a>
+
+                <!-- card 2 -->
+                <a href="/finance/realized-vs-unrealized-losses-explained" class="group border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition">
+                    <h4 class="text-white font-semibold mb-2 group-hover:text-blue-400">
+                        realized vs unrealized losses explained
+                    </h4>
+                    <p class="text-sm text-gray-400 leading-relaxed">
+                        learn the difference between paper losses and real losses and when
+                        money actually changes hands.
+                    </p>
+                </a>
+
+                <!-- card 3 -->
+                <a href="/finance" class="group border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition">
+                    <h4 class="text-white font-semibold mb-2 group-hover:text-blue-400">
+                        why do stock prices fall?
+                    </h4>
+                    <p class="text-sm text-gray-400 leading-relaxed">
+                        explore how fear, supply and demand, and investor sentiment drive
+                        stock price movements.
+                    </p>
+                </a>
+
+                <!-- card 4 -->
+                <a href="/finance" class="group border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition">
+                    <h4 class="text-white font-semibold mb-2 group-hover:text-blue-400">
+                        what happens during a stock market crash?
+                    </h4>
+                    <p class="text-sm text-gray-400 leading-relaxed">
+                        discover why billions seem to disappear during crashes and how
+                        market valuation changes.
+                    </p>
+                </a>
+
+                <!-- card 5 -->
+                <a href="/finance" class="group border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition">
+                    <h4 class="text-white font-semibold mb-2 group-hover:text-blue-400">
+                        how are stock prices determined?
+                    </h4>
+                    <p class="text-sm text-gray-400 leading-relaxed">
+                        learn how buyers and sellers agree on prices and why the last
+                        trade sets the market value.
+                    </p>
+                </a>
+
+                <!-- card 6 -->
+                <a href="/finance" class="group border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition">
+                    <h4 class="text-white font-semibold mb-2 group-hover:text-blue-400">
+                        stock market valuation explained
+                    </h4>
+                    <p class="text-sm text-gray-400 leading-relaxed">
+                        understand market capitalization, valuation changes, and how
+                        expectations affect stock prices.
+                    </p>
+                </a>
+            </div>
+
+            <div class="mt-12 text-xs text-gray-500">
+                © 2026 findmytool · finance education
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
