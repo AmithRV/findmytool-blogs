@@ -3,15 +3,15 @@
 
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0L4RXG3VYZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0L4RXG3VYZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-0L4RXG3VYZ');
-</script>
-  
+    gtag('config', 'G-0L4RXG3VYZ');
+  </script>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Findmytool</title>
@@ -43,24 +43,39 @@
     </h1>
 
     <!-- Blog Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 cursor-pointer"
-      onclick="window.location.href='/finance/when-stock-prices-drop-where-does-the-money-go'">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-      <!-- Card -->
-      <div class="rounded-xl border border-gray-800 bg-gradient-to-b from-neutral-900 to-black p-6 flex flex-col">
-        <h2 class="text-xl font-semibold mb-4">When Stock Prices Drop, Where Is the Money?</h2>
+      <!-- Card-1 -->
+      <div onclick="window.location.href='/finance/when-stock-prices-drop-where-does-the-money-go.html'"
+        class="rounded-xl border border-gray-800 bg-gradient-to-b from-neutral-900 to-black p-6 flex flex-col cursor-pointer">
+        <h2 class="text-xl font-semibold mb-4 capitalize">where does money go when stocks fall?</h2>
         <ul class="text-sm text-gray-300 space-y-2 mb-6">
 
           <li>When stocks crash, does the money disappear? This blog breaks down the truth behind falling prices.</li>
         </ul>
         <div class="mt-auto">
-          <button onclick="window.location.href='/finance/when-stock-prices-drop-where-does-the-money-go'"
-            class="w-full rounded-lg bg-neutral-800 py-2 text-sm hover:bg-neutral-700 transition">
+          <button class="w-full rounded-lg bg-neutral-800 py-2 text-sm hover:bg-neutral-700 transition">
             Read More
           </button>
         </div>
       </div>
 
+
+      <!-- Card-2 -->
+      <div onclick="window.location.href='/finance/realized-vs-unrealized-losses-explained.html'"
+        class="rounded-xl border border-gray-800 bg-gradient-to-b from-neutral-900 to-black p-6 flex flex-col cursor-pointer">
+        <h2 class="text-xl font-semibold mb-4 capitalize">Realized vs unrealized losses explained</h2>
+        <ul class="text-sm text-gray-300 space-y-2 mb-6">
+
+          <li>Understand realized and unrealized losses, how they differ, and why they matter for investing decisions.
+          </li>
+        </ul>
+        <div class="mt-auto">
+          <button class="w-full rounded-lg bg-neutral-800 py-2 text-sm hover:bg-neutral-700 transition">
+            Read More
+          </button>
+        </div>
+      </div>
     </div>
 
   </main>
