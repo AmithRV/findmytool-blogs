@@ -308,18 +308,18 @@
     </script>
 
     <script>
-        const update_api_url =
+        const UPDATE_API_URL =
             'https://findmytool-adminpanel.vercel.app/api/pages/update-views';
 
-        fetch(update_api_url, {
-            method: 'patch',
+        fetch(UPDATE_API_URL, {
+            method: 'PATCH',
             headers: {
-                'content-type': 'application/json',
+                'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                slug: '/infrastructure-investment-trusts',
-            }),
-        });
+                slug: "/infrastructure-investment-trusts"
+            })
+        })
     </script>
 </body>
 
