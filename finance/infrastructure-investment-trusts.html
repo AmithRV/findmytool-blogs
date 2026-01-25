@@ -282,28 +282,28 @@
     </footer>
 
     <script>
-        const api_url =
+        const API_URL =
             'https://findmytool-adminpanel.vercel.app/api/pages/page-views?slug=/infrastructure-investment-trusts';
 
-        fetch(api_url)
+        fetch(API_URL)
             .then((response) => response.json())
             .then((data) => {
                 let current = 0;
                 const target = data.views;
-                const el = document.getelementbyid('viewcount');
+                const el = document.getElementById('viewCount');
 
-                const interval = setinterval(() => {
-                    current += math.ceil(target / 40);
+                const interval = setInterval(() => {
+                    current += Math.ceil(target / 40);
                     if (current >= target) {
                         current = target;
-                        clearinterval(interval);
+                        clearInterval(interval);
                     }
-                    el.innertext = current.tolocalestring() + ' views';
+                    el.innerText = current.toLocaleString() + ' views';
                 }, 20);
             })
             .catch((error) => {
-                console.error('error fetching views:', error);
-                document.getelementbyid('viewCount').innertext = '— views';
+                console.error('Error fetching views:', error);
+                document.getElementById('viewCount').innerText = '— views';
             });
     </script>
 
