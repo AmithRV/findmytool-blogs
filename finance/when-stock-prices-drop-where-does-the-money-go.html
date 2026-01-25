@@ -282,6 +282,21 @@
                 document.getElementById('viewCount').innerText = '— views';
             });
     </script>
+
+    <script>
+        const UPDATE_API_URL =
+            'http://localhost:3000/api/pages/update-views';
+
+        fetch(UPDATE_API_URL, {
+            method: 'PATCH',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                slug: '/when-stock-prices-drop-where-does-the-money-go.html'
+            })
+        })
+    </script>
 </body>
 
 </html>
