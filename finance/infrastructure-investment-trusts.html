@@ -303,7 +303,7 @@
             })
             .catch((error) => {
                 console.error('error fetching views:', error);
-                document.getelementbyid('viewcount').innertext = '— views';
+                document.getelementbyid('viewCount').innertext = '— views';
             });
     </script>
 
@@ -316,7 +316,7 @@
             headers: {
                 'content-type': 'application/json',
             },
-            body: json.stringify({
+            body: JSON.stringify({
                 slug: '/infrastructure-investment-trusts',
             }),
         });
