@@ -44,11 +44,17 @@
     <priority>0.8</priority>
   </url>
 
-    <url>
+  <url>
     <loc>https://findmytool.net/finance/infrastructure-investment-trusts</loc>
     <lastmod>2026-01-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://findmytool.net/finance/why-gold-price-is-going-up-in-india</loc>
+    <lastmod>2026-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
