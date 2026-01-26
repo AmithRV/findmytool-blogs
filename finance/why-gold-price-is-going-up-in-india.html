@@ -56,7 +56,7 @@
                            -1.274 4.057-5.064 7-9.542 7
                            -4.477 0-8.268-2.943-9.542-7z"></path>
                 </svg>
-                <span id="viewcount" class="text-gray-300 font-medium">loading views…</span>
+                <span id="viewCount" class="text-gray-300 font-medium">loading views…</span>
             </span>
         </p>
 
@@ -270,44 +270,44 @@
     </footer>
 
     <script>
-        const api_url =
+        const API_URL =
             'https://findmytool-adminpanel.vercel.app/api/pages/page-views?slug=/why-gold-price-is-going-up-in-india';
 
-        fetch(api_url)
+        fetch(API_URL)
             .then((response) => response.json())
             .then((data) => {
                 let current = 0;
                 const target = data.views;
-                const el = document.getelementbyid('viewcount');
+                const el = document.getElementById('viewCount');
 
-                const interval = setinterval(() => {
-                    current += math.ceil(target / 40);
+                const interval = setInterval(() => {
+                    current += Math.ceil(target / 40);
                     if (current >= target) {
                         current = target;
-                        clearinterval(interval);
+                        clearInterval(interval);
                     }
-                    el.innertext = current.tolocalestring() + ' views';
+                    el.innerText = current.toLocaleString() + ' views';
                 }, 20);
             })
             .catch((error) => {
-                console.error('error fetching views:', error);
-                document.getelementbyid('viewcount').innertext = '— views';
+                console.error('Error fetching views:', error);
+                document.getElementById('viewCount').innerText = '— views';
             });
     </script>
 
     <script>
-        const update_api_url =
+        const UPDATE_API_URL =
             'https://findmytool-adminpanel.vercel.app/api/pages/update-views';
 
-        fetch(update_api_url, {
-            method: 'patch',
+        fetch(UPDATE_API_URL, {
+            method: 'PATCH',
             headers: {
-                'content-type': 'application/json',
+                'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                slug: '/why-gold-price-is-going-up-in-india',
-            }),
-        });
+                slug: "/why-gold-price-is-going-up-in-india"
+            })
+        })
     </script>
 </body>
 
