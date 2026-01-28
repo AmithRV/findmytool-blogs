@@ -89,7 +89,7 @@
                            -1.274 4.057-5.064 7-9.542 7
                            -4.477 0-8.268-2.943-9.542-7z"></path>
                 </svg>
-                <span id="viewcount" class="text-gray-300 font-medium">loading views</span>
+                <span id="viewCount" class="text-gray-300 font-medium">loading views</span>
             </span>
         </p>
 
@@ -635,7 +635,7 @@
             .then((data) => {
                 let current = 0;
                 const target = data.views;
-                const el = document.getelementbyid('viewcount');
+                const el = document.getelementbyid('viewCount');
 
                 const interval = setinterval(() => {
                     current += math.ceil(target / 40);
@@ -648,21 +648,21 @@
             })
             .catch((error) => {
                 console.error('error fetching views:', error);
-                document.getelementbyid('viewcount').innertext = '— views';
+                document.getelementbyid('viewCount').innertext = '— views';
             });
     </script>
 
-    <script>
-        const update_api_url =
+   <script>
+        const UPDATE_API_URL =
             'https://findmytool-adminpanel.vercel.app/api/pages/update-views';
 
-        fetch(update_api_url, {
-            method: 'patch',
+        fetch(UPDATE_API_URL, {
+            method: 'PATCH',
             headers: {
-                'content-type': 'application/json'
+                'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                slug: '/isaac-newton-south-sea-bubble-market-loss'
+                slug: "/isaac-newton-south-sea-bubble-market-loss"
             })
         })
     </script>
