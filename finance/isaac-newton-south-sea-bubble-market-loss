@@ -1,0 +1,672 @@
+<html>
+<head>
+    <!-- google tag (gtag.js) -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=g-0l4rxg3vyz"></script>
+    <script>
+        window.datalayer = window.datalayer || [];
+        function gtag() {
+            datalayer.push(arguments);
+        }
+        gtag('js', new date());
+
+        gtag('config', 'g-0l4rxg3vyz');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>even isaac newton couldn't beat the market</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="../favicon.ico">
+    <meta name="description" content="even isaac newton lost money in the stock market. learn how the south sea bubble trapped one of history’s greatest minds and the timeless investing lessons modern investors can learn from his mistake.">
+    <link rel="canonical" href="https://findmytool.net/finance/isaac-newton-south-sea-bubble-market-loss">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: arial, helvetica, sans-serif;
+            line-height: 1.7;
+            /* padding: 40px;
+            max-width: 900px;
+            margin: auto; */
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #f5f5f5;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        p {
+            margin-bottom: 18px;
+            font-size: 16px;
+        }
+
+        blockquote {
+            border-left: 4px solid #888;
+            padding-left: 16px;
+            color: #ccc;
+            margin: 24px 0;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+
+<body class="bg-black text-white">
+    <!-- navbar -->
+    <header class="border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-6">
+                <a href="/" class="text-white text-xl font-bold capitalize">▲ findmytool</a>
+                <nav class="hidden md:flex gap-6 text-sm text-gray-400">
+                    <a href="/finance" class="text-blue-400">finance</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <article class="max-w-5xl mx-auto px-4 py-10">
+        <!-- back link -->
+        <a href="/" class="inline-flex items-center text-sm text-gray-400 hover:text-white mb-10 capitalize">
+            ← back to home
+        </a>
+
+        <!-- date -->
+        <p class="text-sm text-gray-400 mb-6 flex">
+            wednesday, 28 january 2026
+            <span class="flex items-center gap-2 ml-5">
+                <!-- eye -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentcolor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m2.458 12c3.732 7.943 7.523 5 12 5
+                           c4.478 0 8.268 2.943 9.542 7
+                           -1.274 4.057-5.064 7-9.542 7
+                           -4.477 0-8.268-2.943-9.542-7z"></path>
+                </svg>
+                <span id="viewcount" class="text-gray-300 font-medium">126 views</span>
+            </span>
+        </p>
+
+        <!-- title -->
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-10 capitalize">
+            even isaac newton couldn't beat the market
+        </h1>
+
+        <!-- author section -->
+        <div class="flex items-center gap-8 mb-10">
+            <!-- author 1 -->
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-gray-700">
+                    <img src="../public/user.jpeg" alt="amith" loading="lazy" width="40" height="40" class="rounded-full">
+                </div>
+                <div>
+                    <p class="text-sm font-medium">amith</p>
+                    <p class="text-xs text-gray-400">@amith</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- divider -->
+        <div class="border-t border-gray-800 mb-10"></div>
+
+        <div class="mx-auto px-6 text-xl">
+
+            <div class="text-center mb-10">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/godfreykneller-isaacnewton-1689.jpg" alt="portrait of isaac newton" class="max-w-[260px] w-full mx-auto rounded-xl shadow-[0_0_20px_rgba(255,255,255,0.25)]">
+
+                <p class="text-xs text-gray-400 mt-2">
+                    isaac newton (1643–1727)
+                </p>
+
+                <blockquote class="mt-16 text-center text-lg italic text-gray-300 border-l-4 border-gray-500 pl-4 mx-auto max-w-xl">
+                    “i can calculate the motion of heavenly bodies, but not the madness of people.”
+                    <br>
+                    <span class="block mt-2 text-sm text-gray-400">— isaac newton</span>
+                </blockquote>
+            </div>
+            
+            <p class="text-2xl">
+                when people talk about intelligence, genius, or brainpower, one name almost always comes up: isaac
+                newton.
+                he was one of the greatest scientists who ever lived. he helped invent calculus, explained gravity, and
+                changed the way humans understand the universe. his laws of motion still form the foundation of physics
+                today.
+            </p>
+
+
+
+            <p class="text-2xl mt-10">
+                so it might surprise you to learn that this same man — arguably one of the smartest humans in history —
+                once lost a large amount of money in the stock market. not because he was careless. not because he was
+                foolish. but because markets do not care how smart you are.
+            </p>
+
+            <p class="text-2xl mt-10">
+                this is the story of how isaac newton got caught in one of the world's earliest stock market bubbles,
+                why
+                it happened, and what modern investors — especially beginners — can learn from it.
+            </p>
+
+            <h2 class="text-4xl mt-10">the world newton lived in</h2>
+
+            <p class="text-2xl mt-10">
+                to understand newton’s mistake, we first need to understand the time he lived in. isaac newton was born
+                in 1643 in england. this was a period of massive change. science, trade, and finance were evolving
+                rapidly.
+                england was becoming a global power, and overseas trade was booming.
+            </p>
+
+            <p class="text-2xl mt-10">
+                during this time, joint-stock companies were becoming popular. these companies allowed multiple people
+                to invest money together and share profits. instead of funding dangerous overseas expeditions alone,
+                investors could now spread risk.
+            </p>
+
+            <p class="text-2xl mt-10">
+                one of the most famous of these companies was the south sea company.
+            </p>
+
+            <h2 class="text-4xl mt-10">what was the south sea company?</h2>
+
+            <p class="text-2xl mt-10">
+                the south sea company was founded in 1711. its main promise was exciting: it claimed it would control
+                trade between britain and south america (often called the "south seas"). this included gold, silver,
+                spices, and other valuable goods.
+            </p>
+
+            <p class="text-2xl mt-10">
+                in reality, britain did not actually have free access to most south american trade. spain controlled
+                much
+                of the region, and trade was limited. but the promise alone was powerful enough to attract attention.
+            </p>
+
+            <p class="text-2xl mt-10">
+                even more importantly, the south sea company was involved in managing british government debt. investors
+                could exchange government bonds for shares in the company. this gave the company an air of legitimacy
+                and safety.
+            </p>
+
+            <p class="text-2xl mt-10">
+                slowly, excitement started to build.
+            </p>
+
+            <h2 class="text-4xl mt-10">the birth of a bubble</h2>
+
+            <p class="text-2xl mt-10">
+                by 1720, speculation around the south sea company reached extreme levels. the company’s stock price
+                started rising rapidly. people saw others getting rich and didn’t want to miss out.
+            </p>
+
+            <p class="text-2xl mt-10">
+                this is something we still see today. when prices go up quickly, people assume they will continue to go
+                up. fear of missing out — often called fomo — takes over rational thinking.
+            </p>
+
+            <p class="text-2xl mt-10">
+                new companies started appearing almost daily, many with ridiculous promises. some offered profits from
+                inventions that didn’t exist. one famous example advertised:
+            </p>
+
+            <blockquote class="text-2xl my-10">
+                "a company for carrying out an undertaking of great advantage, but nobody to know what it is."
+            </blockquote>
+
+            <p class="text-2xl mt-10">
+                and people still invested.
+            </p>
+
+            <h2 class="text-4xl mt-10">newton enters the market</h2>
+
+            <p class="text-2xl mt-10">
+                isaac newton was not poor. by this time, he was the master of the royal mint — a very prestigious and
+                well-paid government position. he understood money, metals, and economics better than most people.
+            </p>
+
+            <p class="text-2xl mt-10">
+                initially, newton invested in the south sea company early. when the stock price rose, he sold his shares
+                and made a healthy profit. this was a smart move.
+            </p>
+
+            <p class="text-2xl mt-10">
+                many historians estimate that newton earned around £7,000 from this early investment. adjusted for
+                today’s money, that would be millions.
+            </p>
+
+            <p class="text-2xl mt-10">
+                at this point, newton did exactly what textbooks recommend: buy early, sell at a profit, and step away.
+            </p>
+
+            <h2 class="text-4xl mt-10">the mistake that changed everything</h2>
+
+            <p class="text-2xl mt-10">
+                after newton sold his shares, the stock price kept rising. and rising. and rising.
+            </p>
+
+            <p class="text-2xl mt-10">
+                everywhere newton looked, people were getting rich. friends, colleagues, even people with far less
+                education were making huge profits. this created psychological pressure.
+            </p>
+
+            <p class="text-2xl mt-10">
+                eventually, newton couldn’t resist. he re-entered the market — but this time at much higher prices.
+            </p>
+
+            <p class="text-2xl mt-10">
+                this is a classic investing mistake: selling early, then buying back later because prices keep going up.
+                emotion replaces logic.
+            </p>
+
+            <h2 class="text-4xl mt-10">the crash</h2>
+
+            <p class="text-2xl mt-10">
+                in late 1720, reality finally caught up with the hype. the south sea company’s promises could not be
+                fulfilled. confidence vanished. panic selling began.
+            </p>
+
+            <p class="text-2xl mt-10">
+                the stock price collapsed. fortunes disappeared almost overnight. thousands of investors were ruined.
+            </p>
+
+            <p class="text-2xl mt-10">
+                isaac newton lost an estimated £20,000 — a massive amount of money at the time. this loss haunted him
+                deeply.
+            </p>
+
+            <blockquote class="text-2xl my-10">
+                "i can calculate the motion of heavenly bodies, but not the madness of people."
+            </blockquote>
+
+            <p class="text-2xl mt-10">
+                this quote is often attributed to newton, and while historians debate its exact wording, the message is
+                clear: human behavior is unpredictable, especially in markets.
+            </p>
+
+            <h2 class="text-4xl mt-10">why even geniuses fail at investing</h2>
+
+            <p class="text-2xl mt-10">
+                newton’s story shows us something important: investing is not just about intelligence. it is about
+                emotions, psychology, and discipline.
+            </p>
+
+            <p class="text-2xl mt-10">
+                the stock market is driven by fear and greed. when prices rise, greed takes over. when prices fall, fear
+                dominates. even the smartest people are not immune.
+            </p>
+
+            <p class="text-2xl mt-10">
+                newton understood mathematics better than almost anyone. but markets are not equations. they are social
+                systems made of humans reacting to each other.
+            </p>
+
+            <h2 class="text-4xl mt-10">lessons for beginner investors</h2>
+
+            <p class="text-2xl mt-10">
+                if isaac newton could lose money in the stock market, what does that mean for the rest of us? a lot —
+                but
+                not in a depressing way. his failure offers valuable lessons.
+            </p>
+
+            <h3 class="text-2xl mt-10">1. intelligence does not equal investing success</h3>
+
+            <p class="text-2xl mt-10">
+                being smart, educated, or technically skilled does not guarantee profits. emotional control matters just
+                as much — if not more.
+            </p>
+
+            <h3 class="text-2xl mt-10">2. avoid chasing prices</h3>
+
+            <p class="text-2xl mt-10">
+                newton’s biggest mistake was buying again after prices had already risen sharply. chasing hot stocks is
+                dangerous, especially when driven by envy or regret.
+            </p>
+
+            <h3 class="text-2xl mt-10">3. markets can stay irrational</h3>
+
+            <p class="text-2xl mt-10">
+                markets can behave irrationally longer than you expect. just because something seems overpriced does
+                not mean it will crash immediately.
+            </p>
+
+            <h3 class="text-2xl mt-10">4. have a plan — and stick to it</h3>
+
+            <p class="text-2xl mt-10">
+                newton initially had a plan and executed it well. his downfall came when he abandoned that plan due to
+                emotional pressure.
+            </p>
+
+            <h3 class="text-2xl mt-10">5. diversification matters</h3>
+
+            <p class="text-2xl mt-10">
+                many investors during the south sea bubble put everything into one stock. when it collapsed, they lost
+                everything. spreading risk is essential.
+            </p>
+
+            <h2 class="text-3xl mt-10">modern parallels</h2>
+
+            <p class="text-2xl mt-10">
+                the south sea bubble may sound ancient, but similar events happen again and again. the dot-com bubble of
+                the late 1990s. the housing bubble of 2008. crypto manias. meme stocks.
+            </p>
+
+            <p class="text-2xl mt-10">
+                technology changes. human behavior does not.
+            </p>
+
+            <p class="text-2xl mt-10">
+                each generation believes, "this time is different." and each time, bubbles eventually burst.
+            </p>
+
+            <h2 class="text-3xl mt-10">final thoughts</h2>
+
+            <p class="text-2xl mt-10">
+                isaac newton changed the world with his ideas. his failure in the stock market does not diminish his
+                genius. instead, it reminds us that investing is hard — even for the best minds.
+            </p>
+
+            <p class="text-2xl mt-10">
+                the market is not a math problem. it is a psychological battlefield. respect it. stay humble. and never
+                assume intelligence alone will protect you.
+            </p>
+
+            <p class="text-2xl mt-10">
+                because in the end, even isaac newton couldn’t beat the market.
+            </p>
+
+            <section style="margin-top:70px; padding:50px 30px; background-color:#0b0b0b; border-radius:20px;">
+                <h2 style="text-align:center; margin-bottom:40px;">frequently asked questions (faq)</h2>
+
+                <div style="display:grid; grid-template-columns:1fr; gap:24px;">
+
+                    <div style="background:#111; padding:24px 22px; border-radius:14px; box-shadow:0 0 20px rgba(255,255,255,0.08);">
+                        <h3 class="text-2xl">did isaac newton really lose money in the stock market?</h3>
+                        <p class="text-xl mt-4">
+                            yes. isaac newton invested in the south sea company. although he made profits initially, he
+                            later re-entered
+                            at much higher prices and lost a large sum when the bubble collapsed.
+                        </p>
+                    </div>
+
+                    <div style="background:#111; padding:24px 22px; border-radius:14px; box-shadow:0 0 20px rgba(255,255,255,0.08);">
+                        <h3 class="text-2xl">how much money did isaac newton lose?</h3>
+                        <p class="text-xl mt-4">
+                            historians estimate that isaac newton lost around £20,000, which would be worth millions in
+                            today’s terms.
+                        </p>
+                    </div>
+
+                    <div style="background:#111; padding:24px 22px; border-radius:14px; box-shadow:0 0 20px rgba(255,255,255,0.08);">
+                        <h3 class="text-2xl">what was the south sea bubble?</h3>
+                        <p class="text-xl mt-4">
+                            the south sea bubble was one of the first major stock market bubbles in history, caused by
+                            excessive
+                            speculation in the south sea company and unrealistic expectations of trade profits.
+                        </p>
+                    </div>
+
+                    <div style="background:#111; padding:24px 22px; border-radius:14px; box-shadow:0 0 20px rgba(255,255,255,0.08);">
+                        <h3 class="text-2xl">what can modern investors learn from isaac newton’s mistake?</h3>
+                        <p class="text-xl mt-4">
+                            the key lesson is that emotional discipline matters more than intelligence. avoid hype,
+                            stick to a plan,
+                            and remember that markets are driven by human behavior.
+                        </p>
+                    </div>
+
+                    <div style="background:#111; padding:24px 22px; border-radius:14px; box-shadow:0 0 20px rgba(255,255,255,0.08);">
+                        <h3 class="text-2xl">is this story still relevant to today’s markets?</h3>
+                        <p class="text-xl mt-4">
+                            yes. despite modern technology, fear and greed still dominate markets. bubbles and crashes
+                            continue to
+                            happen for the same psychological reasons.
+                        </p>
+                    </div>
+
+                </div>
+
+                <script type="application/ld+json">
+                    {
+                "@context": "https://schema.org",
+                "@type": "faqpage",
+                "mainentity": [{
+                        "@type": "question",
+                        "name": "did isaac newton really lose money in the stock market?",
+                        "acceptedanswer": {
+                            "@type": "answer",
+                            "text": "yes. isaac newton invested in the south sea company. although he made profits initially, he later re-entered at higher prices and lost a large sum when the bubble collapsed."
+                        }
+                    },
+                    {
+                        "@type": "question",
+                        "name": "how much money did isaac newton lose?",
+                        "acceptedanswer": {
+                            "@type": "answer",
+                            "text": "historians estimate that isaac newton lost around £20,000, which would be worth millions in today’s terms."
+                        }
+                    },
+                    {
+                        "@type": "question",
+                        "name": "what was the south sea bubble?",
+                        "acceptedanswer": {
+                            "@type": "answer",
+                            "text": "the south sea bubble was a major financial bubble in early 18th-century england caused by speculation in the south sea company."
+                        }
+                    },
+                    {
+                        "@type": "question",
+                        "name": "what lessons can investors learn from isaac newton’s experience?",
+                        "acceptedanswer": {
+                            "@type": "answer",
+                            "text": "investors learn the importance of emotional discipline, avoiding hype, and understanding that markets are driven by human psychology."
+                        }
+                    },
+                    {
+                        "@type": "question",
+                        "name": "is isaac newton’s stock market story relevant today?",
+                        "acceptedanswer": {
+                            "@type": "answer",
+                            "text": "yes. the story is still relevant because fear and greed continue to shape market bubbles and crashes today."
+                        }
+                    }
+                ]
+            }
+                </script>
+            </section>
+
+            <section class="mt-[70px] py-8">
+                <h2 class="text-center mb-10 text-2xl font-semibold capitalize">
+                    further reading &amp; credible sources
+                </h2>
+            
+                <p class="text-gray-400 text-center max-w-[700px] mx-auto mb-6">
+                    Trusted articles and references for readers who want to explore the south sea bubble,
+                    isaac newton’s investment experience, and market psychology in more depth.
+                </p>
+            
+                <ul class="max-w-[800px] mx-auto pl-5 list-disc text-gray-300 space-y-4">
+                    <li>
+                        <a href="https://www.britannica.com/event/south-sea-bubble" target="_blank" rel="noopener noreferrer" class="text-white hover:underline capitalize">
+                            encyclopaedia britannica – south sea bubble
+                        </a>
+                        <span class="text-gray-400">
+                    — Authoritative historical overview of the bubble and its economic impact.
+                  </span>
+                    </li>
+            
+                    <li>
+                        <a href="https://www.history.com/news/how-the-south-sea-bubble-burst" target="_blank" rel="noopener noreferrer" class="text-white hover:underline capitalize">
+                            history.com – how the south sea bubble burst
+                        </a>
+                        <span class="text-gray-400">
+                    — Clear narrative explaining how speculation led to a major financial crash.
+                  </span>
+                    </li>
+            
+                    <li>
+                        <a href="https://www.investopedia.com/terms/s/south-sea-bubble.asp" target="_blank" rel="noopener noreferrer" class="text-white hover:underline capitalize">
+                            investopedia – south sea bubble explained
+                        </a>
+                        <span class="text-gray-400">
+                    — Finance-focused explanation connecting history to modern investing lessons.
+                  </span>
+                    </li>
+            
+                    <li>
+                        <a href="https://www.nationalarchives.gov.uk/education/resources/south-sea-bubble/" target="_blank" rel="noopener noreferrer" class="text-white hover:underline capitalize">
+                            uk national archives – the south sea bubble
+                        </a>
+                        <span class="text-gray-400">
+                    — Primary-source-backed educational material and historical documents.
+                  </span>
+                    </li>
+            
+                    <li>
+                        <a href="https://www.behavioraleconomics.com/resources/mini-encyclopedia-of-be/the-south-sea-bubble/" target="_blank" rel="noopener noreferrer" class="text-white hover:underline capitalize">
+                            behavioraleconomics.com – psychology behind the south sea bubble
+                        </a>
+                        <span class="text-gray-400">
+                    — Explores herd behavior, cognitive biases, and emotional investing mistakes.
+                  </span>
+                    </li>
+                </ul>
+            </section>
+
+
+            <p class="mt-10 text-center text-gray-400 text-xl">
+                Want to understand more about how markets work? explore our
+                <a href="/finance" class="text-blue-400 hover:underline">finance blogs</a>.
+            </p>
+        </div>
+    </article>
+
+    <!-- footer -->
+    <footer class="border-t border-gray-800 mt-24">
+        <div class="max-w-6xl mx-auto px-6 py-14">
+            <h3 class="text-2xl font-semibold text-white mb-8 capitalize">
+                related stock market topics
+            </h3>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- card 1 -->
+                <a href="/finance/realized-vs-unrealized-losses-explained.html" class="group border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition">
+                    <h4 class="text-white font-semibold mb-2 group-hover:text-blue-400">
+                        Realized vs unrealized losses explained
+                    </h4>
+                    <p class="text-sm text-gray-400 leading-relaxed">
+                        understand realized and unrealized losses, how they differ, and
+                        why they matter for investing decisions.
+                    </p>
+                </a>
+
+                <!-- card 2 -->
+                <a href="/finance/is-stock-market-gambling-or-investing.html" class="group border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition">
+                    <h4 class="text-white font-semibold mb-2 group-hover:text-blue-400 capitalize">
+                        is stock market gambling or investing
+                    </h4>
+                    <p class="text-sm text-gray-400 leading-relaxed">
+                        learn the simple difference between gambling and investing, and
+                        how your behavior decides the result.
+                    </p>
+                </a>
+
+                <!-- card 3 -->
+                <a href="/finance/union-budget-2026-27.html" class="group border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition">
+                    <h4 class="text-white font-semibold mb-2 group-hover:text-blue-400 capitalize">
+                        what is union budget of india 2026–27?
+                    </h4>
+                    <p class="text-sm text-gray-400 leading-relaxed">
+                        learn what the union budget of india 2026–27 is, its highlights,
+                        purpose, and impacts.
+                    </p>
+                </a>
+
+                <!-- card 4 -->
+                <a href="/finance/infrastructure-investment-trusts" class="group border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition">
+                    <h4 class="text-white font-semibold mb-2 group-hover:text-blue-400 capitalize">
+                        infrastructure investment trusts (invits) in india
+                    </h4>
+                    <p class="text-sm text-gray-400 leading-relaxed">
+                        a simple explanation of what invits are, how they work, and how ordinary people can invest in
+                        india’s infrastructure.
+                    </p>
+                </a>
+
+                <!-- card 5 -->
+                <a href="/finance/why-gold-price-is-going-up-in-india" class="group border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition">
+                    <h4 class="text-white font-semibold mb-2 group-hover:text-blue-400 capitalize">
+                        why gold price is going up in india
+                    </h4>
+                    <p class="text-sm text-gray-400 leading-relaxed">
+                        learn why gold prices are increasing in india using simple explanations about money, demand,
+                        inflation, and global events.
+                    </p>
+                </a>
+
+                <!-- card 6 -->
+                <a href="/finance//why-silver-price-is-going-up-in-india" class="group border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition">
+                    <h4 class="text-white font-semibold mb-2 group-hover:text-blue-400 capitalize">
+                        why silver prices are going up in india
+                    </h4>
+                    <p class="text-sm text-gray-400 leading-relaxed first-letter:uppercase">
+                        discover the key global and domestic factors driving the recent surge in silver prices across
+                        india.
+                    </p>
+                </a>
+            </div>
+
+            <div class="mt-12 text-xs text-gray-500">
+                © 2026 findmytool · finance education
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const api_url =
+            'https://findmytool-adminpanel.vercel.app/api/pages/page-views?slug=/isaac-newton-south-sea-bubble-market-loss';
+
+        fetch(api_url)
+            .then((response) => response.json())
+            .then((data) => {
+                let current = 0;
+                const target = data.views;
+                const el = document.getelementbyid('viewcount');
+
+                const interval = setinterval(() => {
+                    current += math.ceil(target / 40);
+                    if (current >= target) {
+                        current = target;
+                        clearinterval(interval);
+                    }
+                    el.innertext = current.tolocalestring() + ' views';
+                }, 20);
+            })
+            .catch((error) => {
+                console.error('error fetching views:', error);
+                document.getelementbyid('viewcount').innertext = '— views';
+            });
+    </script>
+
+    <script>
+        const update_api_url =
+            'https://findmytool-adminpanel.vercel.app/api/pages/update-views';
+
+        fetch(update_api_url, {
+            method: 'patch',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: json.stringify({
+                slug: '/isaac-newton-south-sea-bubble-market-loss'
+            })
+        })
+    </script>
+
+
+
+</body>
+</html>
