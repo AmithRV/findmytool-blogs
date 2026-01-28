@@ -637,7 +637,7 @@
                 const target = data.views;
                 const el = document.getElementById('viewCount');
 
-                const interval = setinterval(() => {
+                const interval = setInterval(() => {
                     current += math.ceil(target / 40);
                     if (current >= target) {
                         current = target;
