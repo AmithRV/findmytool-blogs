@@ -635,7 +635,7 @@
             .then((data) => {
                 let current = 0;
                 const target = data.views;
-                const el = document.getelementbyid('viewCount');
+                const el = document.getElementById('viewCount');
 
                 const interval = setinterval(() => {
                     current += math.ceil(target / 40);
@@ -648,7 +648,7 @@
             })
             .catch((error) => {
                 console.error('error fetching views:', error);
-                document.getelementbyid('viewCount').innertext = '— views';
+                document.getElementById('viewCount').innertext = '— views';
             });
     </script>
 
