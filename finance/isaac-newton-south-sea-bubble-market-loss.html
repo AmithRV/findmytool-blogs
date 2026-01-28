@@ -638,12 +638,12 @@
                 const el = document.getElementById('viewCount');
 
                 const interval = setInterval(() => {
-                    current += math.ceil(target / 40);
+                    current += Math.ceil(target / 40);
                     if (current >= target) {
                         current = target;
-                        clearinterval(interval);
+                        clearInterval(interval);
                     }
-                    el.innertext = current.tolocalestring() + ' views';
+                    el.innerText = current.toLocaleString() + ' views';
                 }, 20);
             })
             .catch((error) => {
