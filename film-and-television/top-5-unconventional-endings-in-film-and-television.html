@@ -220,6 +220,22 @@
     <footer class="border-t border-gray-800 py-6 text-center text-gray-500 text-sm">
         © 2026 · Unconventional Storytelling in Film & Television
     </footer>
+
+    <script>
+        const UPDATE_API_URL =
+            'https://findmytool-adminpanel.vercel.app/api/pages/update-views';
+
+        fetch(UPDATE_API_URL, {
+            method: 'PATCH',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                slug: "/top-5-unconventional-endings-in-film-and-television"
+            })
+        })
+    </script>
+
 </body>
 
 </html>
