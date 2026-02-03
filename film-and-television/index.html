@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0L4RXG3VYZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0L4RXG3VYZ');
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="../favicon.ico" />
+</head>
+
+<body class="bg-black text-white">
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50 bg-black border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-6">
+                <a href="/" class="text-white text-xl font-bold capitalize">▲ FindmyTool</a>
+                <nav class="hidden md:flex gap-6 text-sm text-gray-400">
+                    <a href="/finance" class="text-white">Finance</a>
+                    <a href="/film-and-television" class="text-blue-400">Entertainment</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Container -->
+    <main class="max-w-7xl mx-auto px-6 py-14">
+        <!-- Page Title -->
+        <h1 class="text-3xl md:text-4xl font-semibold mb-12 capitalize">
+            Movies and shows
+        </h1>
+
+        <!-- Blog Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Card-1 -->
+            <div class="rounded-xl border border-gray-800 bg-linear-to-b from-neutral-900 to-black p-6 flex flex-col cursor-pointer group hover:border-blue-500"
+                onclick="window.location.href ='/film-and-television/top-5-unconventional-endings-in-film-and-television'">
+                <h2 class="text-xl font-semibold mb-4 capitalize group-hover:text-blue-400">
+                    Top Unconventional Endings in Film & Television
+                </h2>
+                <ul class="text-sm text-gray-300 space-y-2 mb-6">
+                    <li>
+                        Unconventional endings in Film & Television, each defined by how the central character
+                        ultimately dies—or
+                        symbolically ceases to exist.
+                    </li>
+                </ul>
+                <div class="mt-auto">
+                    <button
+                        class="w-full rounded-lg bg-neutral-800 py-2 text-sm hover:bg-neutral-700 transition group-hover:text-white group-hover:bg-blue-600">
+                        Read More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
