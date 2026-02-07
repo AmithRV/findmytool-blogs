@@ -146,6 +146,47 @@
         </div>
     </div>
 
+
+    <script>
+        const API_URL =
+            'https://findmytool-adminpanel.vercel.app/api/pages/page-views?slug=/top-10-quotes-from-movies';
+
+        fetch(API_URL)
+            .then((response) => response.json())
+            .then((data) => {
+                let current = 0;
+                const target = data.views;
+                const el = document.getElementById('viewCount');
+
+                const interval = setInterval(() => {
+                    current += Math.ceil(target / 40);
+                    if (current >= target) {
+                        current = target;
+                        clearInterval(interval);
+                    }
+                    el.innerText = current.toLocaleString() + ' views';
+                }, 20);
+            })
+            .catch((error) => {
+                console.error('Error fetching views:', error);
+                document.getElementById('viewCount').innerText = '— views';
+            });
+    </script>
+
+    <script>
+        const UPDATE_API_URL =
+            'https://findmytool-adminpanel.vercel.app/api/pages/update-views';
+
+        fetch(UPDATE_API_URL, {
+            method: 'PATCH',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                slug: '/top-10-quotes-from-movies'
+            })
+        })
+    </script>
 </body>
 
 </html>
